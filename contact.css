@@ -112,21 +112,23 @@ input:focus{
 }
 textarea{
     border: none;
+    resize: none;
 }
 textarea:focus{
 outline: none;
 }
 .btn1{
-  position: absolute;
-    padding: 10px 25px;
-    border-radius: .7pc;
+  /* position: absolute; */
+    padding: 10px 50px;
+    /* border-radius: .7pc; */
     color: white;
     background-color: blueviolet;
     border: none;
     outline: none;
-    top: 108%;
-    right: 30%;
+text-align: center;
+margin-left: 46%;
     font-size: 16px;
+    margin-top: -1pc;
    
    
 }
@@ -149,6 +151,7 @@ footer{
 }
 li a{
     color: #f9f9f9;
+    text-decoration: none;
 }
 li a:hover{
     color: yellow;
@@ -175,4 +178,22 @@ div .social{
 }
 .social i{
     color: white;
+}
+
+@media screen and (max-width: 900px){
+  .feed{
+    margin-left: 1pc;
+    margin-right: 1pc;
+  }
+    input{
+        width: 200px;
+    
+    }
+    textarea{
+        width: 450px;
+    }
+    .button{
+        margin-left: -5.5pc;
+        margin-top: -1pc;
+    }
 }
