@@ -3,11 +3,12 @@
     padding: 0;
 font-family: cursive;
     font-weight: bold;
+    border: 1px solid red;
 }
 .hero{
     height: 100vh;
     width: 100%;
-
+ 
 }
 nav{
     background-color: blueviolet;
@@ -242,8 +243,9 @@ div .social{
   font-size: 3rem;
 }
 
-@media screen and (max-width: 700px){
-
+@media screen and  (max-width:600px){
+*{
+    box-sizing: border-box;}
     nav{
     width: 100%;
 }
@@ -253,6 +255,7 @@ div .social{
     .content  {
     display: block;
     flex-direction: column;
+    width: 450px !important;
 
 }
 .do{
@@ -261,7 +264,8 @@ div .social{
 .one{
     margin-top: -1pc;
     margin-left: 1pc;
-    width:100pc;
+    /* width:100pc; */
+    width: 450px !important;
 }
 div .socials{
   display: flex;
@@ -291,7 +295,27 @@ div .socials{
  }
  .together{
     display:block;
+    width: 450px !important;
  }
 
   
   }
+  /* @media screen and  (min-width:920px) {
+   .one h1 h3{
+    width: 50px !important;
+   }
+    .one{
+        width: 370px !important;
+        margin-right: 28pc !important;
+    }
+    .together{
+        width: 370px !important;
+        margin-right: 28pc !important;
+        margin: 0px 48px 0px 48px;
+    }
+    .content{
+        width: 370px !important;
+        margin-right: 28pc !important;
+    }
+
+  } */
