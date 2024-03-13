@@ -3,9 +3,9 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 500;
     font-style: normal;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 .hero{
     height: 30vh;
@@ -170,6 +170,7 @@ div section {
 footer{
     background-color: blueviolet;
     margin-top: 4%;
+    padding-bottom: 3pc;
     
 }
  div.ul{
@@ -183,6 +184,7 @@ footer{
 }
 li a{
     color: #f9f9f9;
+    text-decoration: none;
 }
 li a:hover{
     color: yellow;
@@ -197,6 +199,7 @@ div ul li{
 .what-you{
     display: flex;
     justify-content: space-around;
+    padding-top: 2.5pc;
 
 }
 
@@ -209,4 +212,9 @@ div .social{
 }
 .social i{
     color: white;
+    
+}
+footer p{
+    color: white;
+    text-align:center ;
 }

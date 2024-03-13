@@ -1,10 +1,10 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal;
 }
 .hero{
@@ -23,6 +23,7 @@ nav{
     padding-bottom: 1%;   
     
 }
+
 .logo{
     color: white;
     font-size: 40px;
@@ -188,6 +189,7 @@ margin-top: 3pc;
 footer{
     background-color: blueviolet;
     margin-top: 4%;
+    padding-bottom: 3pc;
 }
  div.ul{
     display: flex;
@@ -244,6 +246,10 @@ div .social{
     padding: 1rem 1rem;
   font-size: 3rem;
 }
+footer p{
+    color: white;
+    text-align:center ;
+}
 
 @media screen and  (max-width:600px){
 *{
@@ -283,6 +289,8 @@ div .socials{
  .ped{
  height: 300px;
  margin-left: 3pc;
+ max-height: fit-content;
+ max-width: fit-content;
  
  
  }
@@ -321,3 +329,7 @@ div .socials{
     }
 
   } */
+  .w1,.w2,.w3:hover{
+    color: red;
+    transition: .4S;
+  }
