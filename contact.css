@@ -51,8 +51,11 @@ nav ul li a{
     text-decoration: none;
 }
 nav ul li a:hover{
-    color: #f9004d;
-    transition: .4s;
+    padding: .3rem 1rem;
+    color: white;
+    background: blueviolet;
+    transition: .2s;
+    border-radius: .4rem 1rem .3rem .6rem;
 }
 
 .btn {

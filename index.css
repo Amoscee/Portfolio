@@ -5,7 +5,6 @@
     font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
-  font-style: normal;
 }
 .hero{
     height: 100vh;
@@ -26,7 +25,7 @@ nav{
 
 .logo{
     color: white;
-    font-size: 40px;
+    font-size: 2.5rem;
     letter-spacing: 1px;
     cursor: pointer;
 }
@@ -36,7 +35,7 @@ span{
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding:10px 25px ;
+    padding:0.63rem 1.5rem ;
 }
 
 nav ul li a{
@@ -44,17 +43,20 @@ nav ul li a{
     text-decoration: none;
 }
 nav ul li a:hover{
-    color: #f9004d;
-    transition: .4s;
+    padding: .3rem 1rem;
+    color: blueviolet;
+    background: white;
+    transition: .2s;
+    border-radius: .4rem 1rem .3rem .6rem;
 }
 .btn {
     background-color:white;
     color: blueviolet;
     text-decoration: none;
-    border: 2px solid transparent;
+    border: .1rem solid transparent;
     font-weight: bold;
-    padding: 7px 20px;
-    border-radius: 3px;
+    padding: .4rem 1.3rem;
+    border-radius: .2rem;
     transition: transfrom .4s;
 
 }
@@ -66,12 +68,23 @@ nav .btn a{
 }
 .were{
     text-decoration: none;
-    padding: 10px 20px;
+    padding: .6rem 1.3rem;
     background-color:blueviolet ;
     color: #f9f9f9;
-    font-weight: bold;
-
+    border-radius: .2rem;
+    
 }
+.btn22{
+    padding: .8rem 1.7rem;
+    color: white;
+    background: blueviolet;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+}
+.btn22:hover,.were:hover{
+    box-shadow: grey 1px 3px 0.5pc ;
+      }
  .content{
     top: 35%;
     position: absolute;
@@ -82,9 +95,9 @@ nav .btn a{
 }
 
   .me{
-    height: 350px;
-    width: 350px;
-border: 8px solid blueviolet;
+    height: 21.9rem;
+    width: 21.9rem;
+border: .5rem solid blueviolet;
 border-radius: 50%;
 display: grid;
 place-items: center;
@@ -121,6 +134,7 @@ div .socials{
 .together{
     display: flex;
     margin-left: 3pc;
+    width: fit-content;
 
 }
 .one{
@@ -174,6 +188,14 @@ box-shadow: grey 1px 3px 0.5pc ;
     justify-content: space-around;
     align-items: center;
 padding-top: 4pc;
+/* margin-left: .6rem; */
+}
+.link{
+    color: blueviolet;
+}
+.link:hover{
+    color:red ;
+    transition: .4s;
 }
 div a{
     text-decoration: none;
@@ -251,84 +273,122 @@ footer p{
     text-align:center ;
 }
 
-@media screen and  (max-width:600px){
-*{
-    box-sizing: border-box;}
-    nav{
-    width: 100%;
-}
-    .me{
-    margin-top: 4pc;
-}
-    .content  {
-    display: block;
-    flex-direction: column;
-    width: 450px !important;
-
-}
-.do{
-    display: none;
-}
-.one{
-    margin-top: -1pc;
-    margin-left: 1pc;
-    width: 450px !important;
-}
-div .socials{
-  display: flex;
-  flex-direction: row;
-  column-gap: 2rem;
-  margin-top: 2.5pc;
-  margin-left: 2.6pc;
-  
-}
- .services{
-    margin-top: 12pc;
- }
- .ped{
- height: 300px;
- margin-left: 3pc;
- max-height: fit-content;
- max-width: fit-content;
- 
- 
- }
- .lock{
-    display: block;
- }
- .leads{
-    display: block;
- }
- .work.w1{
-    padding-block: 11pc;
- }
- .together{
-    display:block;
-    width: 450px !important;
- }
-
-  
-  }
-   @media screen and  (min-width:920px) {
-   .one h1 h3{
-    width: 50px !important;
+  @media screen and (max-width:767px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        border: 1px solid red;
+      
+    }
+    .hero{
+       
+         width: 100%;
+         
+    }
+        nav{
+       
+             width: 100%;
+             
+     justify-content: center;
+    align-items: center;
+    align-content: center;
+    }
+        .me{
+            margin-top: 4rem;
+            
+             margin-left: 3rem; 
+             
+       
+              margin-right: auto; 
+              width: 290px;
+              height: 290px;
+              
+        }
+        .content  {
+        display: block;
+        flex-direction: column;
+       
+         width: 8rem !important;
+          }
+          .ima{
+            object-fit: contain;
+          }
+    .do{
+        display: none;
+    }
+   .together{
+    width: -100px !important ;
    }
-    .one{
-        width: 370px !important;
-        margin-right: 28pc !important;
+     .one{
+        margin-top: 1rem;
+       width: 340px; 
+    }  
+    .Amos h1{
+        width: 260px;
+        margin-left: 3rem;
     }
-    .together{
-        width: 370px !important;
-        margin-right: 28pc !important;
-        margin: 0px 48px 0px 48px;
+    span h3{
+        width: 300px;
+        margin-left: 1rem;
     }
-    .content{
-        width: 370px !important;
-        margin-right: 28pc !important;
-    }
+   .btn22{
+    padding: .5rem 3rem;
+    color: white;
+    background: blueviolet;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 3rem;
+   }
 
-}
-  .w1,.w2,.w3:hover{
-    color: red;
-    transition: .4S;
+   .leave{
+    width: 250px;
+    height: 250px;
+   }
+     div .socials{
+      display: flex;
+      flex-direction: row;
+      column-gap: 2rem;
+      margin-top: 1pc;
+       margin-left: 4.7rem;
+       padding: .7rem;
+       width: 200px;
+      
+    } 
+    
+     .services{
+        margin-top: 9rem;
+        text-align: center;
+        margin-left:2rem;
+     } 
+      .ped{
+     height: 350px;
+     width: 250px;;
+       margin-left: auto; 
+      margin-right: auto; 
+     
+     
+     
+    }
+    
+    .lock{
+        display: block;
+     }
+     .leads{
+        display: block;
+    
+     }
+     .work.w1,.w2,.w3{
+        padding: 1rem;
+     }
+     .together{
+        display:block;
+        width: 410px !important;
+     }
+     a h3{
+        padding-top: .7rem;
+     }
+     .w1{
+        padding-bottom: .7rem;
+     }
   }
